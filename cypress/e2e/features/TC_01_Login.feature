@@ -1,6 +1,6 @@
 Feature: Verify Order Generated Feature
 
-  Scenario: Verify User is able to Login with Valid Credentials
+  Scenario: Verify User is able to Login with Valid Credentials on the application
     Given User navigate to the application
     When User enters Valid Username and Password
     And Click on Submit button
