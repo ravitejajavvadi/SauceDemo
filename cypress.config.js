@@ -8,5 +8,15 @@ module.exports = defineConfig({
       on('file:preprocessor', cucumber())
     },
     specPattern: "cypress/e2e/features",
+  
+  reporter: 'mochawesome',
+  reporterOptions: {
+    reportDir: 'cypress/reports/mochawesome',
+    overwrite: false,
+    html: false,
+    json: true,
   },
+}
 });
+
+
