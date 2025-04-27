@@ -19,6 +19,8 @@ jobs:
       - name: Cypress run in ${{ matrix.browsers }}
         uses: Cypress-io/github-action@v6
         with:
+            build: npm run build
+            start: npm start
             browsers: ${{ matrix.browsers }}
             command: npx cypress run --browser ${{ matrix.browsers }} --reporter-options reportDir=cypress/reports/${{ matrix.browsers }}
     
