@@ -1,0 +1,10 @@
+name: Cypress tests on Github actions
+on: [push]
+jobs :
+   cypress-run:
+      runs-on : ubuntu-latest
+      steps:
+        - name : checkout
+          uses: actions/checkout@v4
+        - name : Cypress run
+          uses : cupress-io/github-action@vs
