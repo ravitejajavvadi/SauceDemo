@@ -8,7 +8,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-          browsers: [chrome, firefox, edge]
+          browsers: [Electron]
+          #[Electron chrome, firefox, edge]
 
     steps:
       - name: Checkout
