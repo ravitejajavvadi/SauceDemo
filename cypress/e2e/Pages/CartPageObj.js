@@ -4,7 +4,7 @@
     const Product_Qty="div.cart_quantity";
     const Product_item_price="div.inventory_item_price";
     const CheckOut_button="a.btn_action.checkout_button";
-    const Add_First_name="#first-name";
+    const Add_First_name="#first-name1";
     const Add_Last_name="#last-name";
     const Add_Zipcode="#postal-code";
     const Continue_button="input.btn_primary.cart_button";
